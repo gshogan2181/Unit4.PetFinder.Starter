@@ -9,7 +9,24 @@
 </head>
 <body>
     <h1>Pet Finder</h1>
+       <!-- Add a button to retrieve all pets -->
+       <button id="getAllPetsButton">Get All Pets</button>
+
+       <div id="petList">
+       </div>
+
+      <!-- Add a form for users to search for pets -->
+      <form id="searchForm">
+        <label for="searchType">Search By:</label>
+        <select id="searchType" name="searchType">
+            <option value="name">Name</option>
+            <option value="owner">Owner's Name</option>
+        </select>
+        <input type="text" id="searchValue" name="searchValue" required>
+        <button type="submit">Search</button>
+    </form>
     
+    <script src="index.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

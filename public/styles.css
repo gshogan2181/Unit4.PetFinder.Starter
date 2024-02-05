@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .pet-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .pet-info {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    width: calc(33.33% - 20px);
+  }
+  
+  .pet-info h2 {
+    margin-top: 0;
+  }
